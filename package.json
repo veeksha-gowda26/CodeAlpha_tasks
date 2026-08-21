@@ -1,0 +1,17 @@
+{
+  "name": "codealpha-project-management-tool",
+  "version": "1.0.0",
+  "description": "CodeAlpha Task 3 project management tool",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "socket.io": "^4.8.3",
+    "sql.js": "^1.12.0"
+  }
+}
