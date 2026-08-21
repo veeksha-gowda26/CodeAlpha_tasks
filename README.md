@@ -1,3 +1,14 @@
+# CodeAlpha Tasks
+
+This repository contains the projects completed for the CodeAlpha internship.
+
+## Projects
+
+- [x] [CodeAlpha E-commerce Store](CodeAlpha_E-commerce_Store/)
+- [x] [Social Media Platform](CodeAlpha_SocialMediaPlatform/)
+- [x] Project Management Tool
+- [ ] Real-Time Communication App
+
 # CodeAlpha Task 3 - Project Management Tool
 
 Orbit is a beginner-friendly full-stack project management tool inspired by Trello and Asana. Teams can create project spaces, invite members, manage task cards across a board, and communicate in task comments.

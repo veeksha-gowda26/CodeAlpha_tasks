@@ -1,0 +1,15 @@
+{
+  "name": "fieldwork-supply-store",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A small e-commerce store with an Express and SQLite backend.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "sql.js": "^1.13.0"
+  }
+}

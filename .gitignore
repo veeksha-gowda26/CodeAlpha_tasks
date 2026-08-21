@@ -2,3 +2,5 @@ node_modules/
 social.db
 .env
 .DS_Store
+store.db
+store.db-journal
