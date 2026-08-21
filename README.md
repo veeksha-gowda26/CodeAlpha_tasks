@@ -5,7 +5,7 @@ This repository contains the projects completed for the CodeAlpha internship.
 ## Projects
 
 - [x] [CodeAlpha E-commerce Store](CodeAlpha_E-commerce_Store/)
-- [ ] Social Media Platform
+- [x] [Social Media Platform](CodeAlpha_SocialMediaPlatform/)
 - [ ] Project Management Tool
 - [ ] Real-Time Communication App
 

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Socially is a calm, thoughtful space for sharing updates with your community.">
+  <title>Socially | Your community, in one place</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <section id="authView" class="auth-layout">
+    <div class="intro"><div class="brand-mark">S<span>+</span></div><p class="eyebrow">A softer social network</p><h1>Share what matters.<br><em>Find your people.</em></h1><p class="intro-copy">A thoughtful place for updates, conversations, and the small moments that make a community feel close.</p></div>
+    <div class="auth-card"><div class="auth-tabs"><button class="tab active" data-auth="login">Log in</button><button class="tab" data-auth="register">Create account</button></div>
+      <form id="loginForm" class="auth-form"><h2>Welcome back</h2><p class="form-note">Pick up where you left off.</p><label>Email<input id="loginEmail" name="email" type="email" required autocomplete="email" placeholder="you@example.com"></label><label>Password<input id="loginPassword" name="password" type="password" required autocomplete="current-password" placeholder="Your password"></label><button class="primary-button" type="submit">Enter Socially <span>↗</span></button><p class="form-message" id="loginMessage"></p></form>
+      <form id="registerForm" class="auth-form hidden"><h2>Join the circle</h2><p class="form-note">Make a little more room for connection.</p><label>Username<input id="registerUsername" name="username" required autocomplete="username" placeholder="your_name"></label><label>Email<input id="registerEmail" name="email" type="email" required autocomplete="email" placeholder="you@example.com"></label><label>Password<input id="registerPassword" name="password" type="password" minlength="6" required autocomplete="new-password" placeholder="At least 6 characters"></label><button class="primary-button" type="submit">Create account <span>↗</span></button><p class="form-message" id="registerMessage"></p></form>
+    </div>
+  </section>
+  <section id="appView" class="hidden"><header class="topbar"><a class="brand" href="#"><span class="brand-mark small">S<span>+</span></span> Socially</a><div class="top-actions"><span id="navUsername"></span><button id="logoutButton" class="text-button">Log out</button></div></header><main class="dashboard"><aside class="sidebar"><div class="profile-card"><div class="avatar large" id="profileAvatar">?</div><h2 id="profileUsername">Loading...</h2><p id="profileBio"></p><div class="stats"><div><strong id="postCount">0</strong><span>Posts</span></div><div><strong id="followerCount">0</strong><span>Followers</span></div><div><strong id="followingCount">0</strong><span>Following</span></div></div></div><div class="search-panel"><label for="searchInput">Find someone</label><div class="search-wrap"><span>⌕</span><input id="searchInput" placeholder="Search usernames"></div><div id="searchResults"></div></div></aside><section class="feed"><div class="feed-heading"><div><p class="eyebrow">Your community</p><h1>Latest notes</h1></div><button id="refreshButton" class="icon-button" title="Refresh feed">↻</button></div><form id="postForm" class="composer"><div class="avatar" id="composerAvatar">?</div><div class="composer-body"><textarea id="postContent" name="content" maxlength="500" rows="3" placeholder="What is on your mind?"></textarea><div class="composer-footer"><span id="charCount">0 / 500</span><button class="primary-button compact" type="submit">Share note <span>↗</span></button></div><p class="form-message" id="postMessage"></p></div></form><div id="feedList" class="feed-list"></div></section></main></section><div id="toast" class="toast"></div><script src="app.js"></script>
+</body></html>
