@@ -6,18 +6,6 @@ This repository contains the projects completed for the CodeAlpha internship.
 
 - [x] [CodeAlpha E-commerce Store](CodeAlpha_E-commerce_Store/)
 - [x] [Social Media Platform](CodeAlpha_SocialMediaPlatform/)
-- [x] [Project Management Tool](CodeAlpha_ProjectManagementTool/)
-- [ ] Real-Time Communication App
-
-The Project Management Tool includes authentication, project spaces, task boards,
-task assignment, due dates, comments, and live updates for project members.# CodeAlpha Tasks
-
-This repository contains the projects completed for the CodeAlpha internship.
-
-## Projects
-
-- [x] [CodeAlpha E-commerce Store](CodeAlpha_E-commerce_Store/)
-- [x] [Social Media Platform](CodeAlpha_SocialMediaPlatform/)
 - [x] Project Management Tool
 - [ ] Real-Time Communication App
 
