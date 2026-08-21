@@ -1,17 +1,9 @@
 # CodeAlpha Tasks
 
-This repository contains CodeAlpha projects.
+This repository contains the projects completed for the CodeAlpha internship.
 
 ## Projects
 
 - [CodeAlpha E-commerce Store](CodeAlpha_E-commerce_Store/)
 
-### Run the e-commerce store
-
-```bash
-cd CodeAlpha_E-commerce_Store
-npm install
-npm start
-```
-
-Open http://localhost:3000 in your browser.
+Additional CodeAlpha projects can be added as separate folders in this repository.
